@@ -99,8 +99,8 @@ class MarketDefinition(object):
 
     def __init__(self, betDelay, bettingType, bspMarket, bspReconciled, complete, crossMatching, discountAllowed,
                  eventId, eventTypeId, inPlay, marketBaseRate, marketTime, numberOfActiveRunners, numberOfWinners,
-                 openDate, persistenceEnabled, regulators, runnersVoidable, status, timezone, turnInPlayEnabled,
-                 version, runners, countryCode=None, eachWayDivisor=None, venue=None, settledTime=None,
+                 persistenceEnabled, regulators, runnersVoidable, status, timezone, turnInPlayEnabled,
+                 version, runners, openDate=None, countryCode=None, eachWayDivisor=None, venue=None, settledTime=None,
                  suspendTime=None, marketType=None, lineMaxUnit=None, lineMinUnit=None, lineInterval=None, name=None,
                  eventName=None, priceLadderDefinition=None, keyLineDefinition=None, raceType=None):
         self.bet_delay = betDelay
